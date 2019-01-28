@@ -162,6 +162,7 @@ public class DownLoadManagerTest { // extends
 	 * 
 	 * 创建指定大小的文件
 	 */
+	@SuppressWarnings("unused")
 	private void createFile(String fileName, long fileSize) throws IOException {
 		File newFile = new File(fileName);
 		RandomAccessFile raf = new RandomAccessFile(newFile, "rw");
